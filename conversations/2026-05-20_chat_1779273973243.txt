@@ -1,0 +1,129 @@
+New chat
+Ctrl+⇧+O
+Search
+Ctrl+K
+Chats
+Projects
+Code
+Customize
+Design
+More
+Recents
+Hide
+تنظیم حساب کلاود و سیستم بک‌آپ حافظه
+نصب پچ RTL برای Claude Desktop
+Prioritize my backlog
+Try the basics
+0 of 3 steps complete
+
+Bring history from another AI
+
+So you're not starting from scratch
+
+Connect your everyday tools
+
+Claude gives better answers when it understands what matters to you
+
+Get the desktop app
+
+Hand off tasks, code with Claude, and do more from your desktop
+
+D
+DDM
+Pro plan
+نصب پچ RTL برای Claude Desktop
+Claude responded: یعنی توی همون پنجره Ubuntu/WSL این دستور رو بزن:
+
+یعنی توی همون پنجره Ubuntu/WSL این دستور رو بزن:
+
+git status
+
+و بعد:
+
+rtk gain
+
+ببین چی نشون میده.
+
+You said: mhhal@Hallaj:/mnt/c/Users/mhhal$ git status
+
+mhhal@Hallaj:/mnt/c/Users/mhhal$ git status
+rtk gain
+fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+No tracking data yet.
+Run some rtk commands to start tracking savings.
+mhhal@Hallaj:/mnt/c/Users/mhhal$
+
+11:43 AM
+Claude responded: همه چیز درسته!
+
+همه چیز درسته! ✅
+
+git status خطا داد چون پوشه فعلی یه git repo نیست — نرمالیه
+rtk gain گفت "No tracking data yet" — یعنی هنوز دستوری از طریق RTK اجرا نشده
+
+RTK کاملاً نصب و آماده‌ست. وقتی Claude Code رو توی WSL استفاده کنی، خودکار شروع به ذخیره توکن می‌کنه.
+
+یه سوال — Claude Code نصب داری؟ اگه نه، اونم نصب کنیم؟
+
+You said: ینی چی ؟
+
+ینی چی ؟
+
+11:43 AM
+Claude responded: Claude Code یه ابزار command line هست که Anthropic ساخته — مثل یه برنامه‌نویس AI که توی ترمینال باهاش کار می‌کنی و بهش می‌گی کد بنویس، فایل‌ها رو ویرایش کن، با…
+
+Claude Code یه ابزار command line هست که Anthropic ساخته — مثل یه برنامه‌نویس AI که توی ترمینال باهاش کار می‌کنی و بهش می‌گی کد بنویس، فایل‌ها رو ویرایش کن، باگ‌ها رو درست کن و غیره.
+
+RTK که الان نصب کردیم برای همین ابزار طراحی شده — وقتی Claude Code دستوراتی مثل git status یا cargo test اجرا می‌کنه، RTK خروجی رو فشرده می‌کنه تا توکن کمتری مصرف بشه.
+
+سوال اینه: آیا Claude Code رو قبلاً نصب کردی و ازش استفاده می‌کنی؟
+
+You said: مگه نصبیه
+
+مگه نصبیه 
+مگه نباید اول پلن بخرم ؟
+
+11:44 AM
+Claude responded: بله درسته!
+
+بله درسته! برای Claude Code نیاز به پلن داری:
+
+Pro (~$20/ماه) — شامل Claude Code میشه
+یا از طریق API با پرداخت مستقیم بر اساس مصرف
+
+اگه الان پلن Pro نداری، RTK که نصب کردیم فعلاً کاربردی نداره چون Claude Code نداری.
+
+پس خلاصه چی نصب کردیم امروز:
+
+✅ RTL Patch برای Claude Desktop — این مستقیم مفیده
+✅ RTK — وقتی Claude Code گرفتی استفاده میشه
+
+آیا می‌خوای Claude Code بگیری، یا فعلاً همین Claude Desktop کافیه؟
+
+You said: فعلا کافیه تا بخرم
+
+فعلا کافیه تا بخرم 
+بعد از این که خریدم باید کاری کنم ؟
+
+11:45 AM
+Claude responded: بعد از خرید، فقط کافیه Claude Code رو نصب کنی:
+
+بعد از خرید، فقط کافیه Claude Code رو نصب کنی:
+
+bash
+npm install -g @anthropic-ai/claude-code
+
+بعد توی WSL:
+
+bash
+claude
+
+لاگین می‌کنی و RTK هم که از قبل نصبه، خودکار فعاله! هیچ کار اضافه‌ای لازم نیست. 🎉
+
+
+
+
+Sonnet 4.6
+Claude is AI and can make mistakes. Please double-check responses.
+Share
